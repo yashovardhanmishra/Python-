@@ -1,4 +1,32 @@
-from questions import*
+questions = {
+    'Earth is round?':'A',
+    'We are?':'B',
+    'Which of theme animal eats grass?':'C',
+    'Eagle is':'D',
+    'Humans have __________ bones.':'D',
+    'Octopus have _______ bones':'A',
+    'Snake is a':'C',
+    'Sun is ':'D',
+    'Bones are made up of?':'C',
+    'Wheels are made of?':'B',
+    "World's biggest mammal is":'A',
+}
+
+options = [
+    ['A. True','B.False', "C.Don't know", 'D.Maybe'],
+    ['A. Animals','B.Humans', "C.bird", 'D.DK'],
+    ['A. Lion','B.Dog', "C.Cow", 'D.Cat'],
+     ['A. Reptile','B.Cat', "C.Don't know", 'D.Bird'],
+    ['A. 210','B.306', "C.Don't know", 'D.206'],
+    ['A. No','B.300', "C.120", 'D.100'],
+    ['A. Insect','B.Bird', "C.Reptile", 'D.DK'],
+    ['A. Warm','B.Neutral', "C.Cold", 'D.Hot'],
+    ['A. Fat','B.Protien', "C.Calcuim", 'D.Magnesium'],
+    ['A. Copper','B.Rubber', "C.Steel", 'D.Iron'],
+    ['A. Blue Whale','B.Mammath', "C.Shark", 'D.Giraffe'],
+]
+
+
 def game():
     guesses = []
     correct_guesses = 0
